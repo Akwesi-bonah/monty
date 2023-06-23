@@ -4,7 +4,7 @@
  * @stack: a double linked list
  * @line_number: number of line in code to print error message.
  */
-void div(stack_t **stack, unsigned int line_number)
+void div_m(stack_t **stack, unsigned int line_number)
 {
 	stack_t *f, *s;
 	int l = 0;
